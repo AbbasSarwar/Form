@@ -16,9 +16,13 @@
     font-size: 16px;
     color: rgb(194, 72, 72);
 }
-#phone{
+#number{
     width: 200px;
     height: 10px;
     font-size: 16px;
     color: rgb(194, 72, 72);
+}
+#dropdown{
+    width: 200px;
+    height: 20px;
 }

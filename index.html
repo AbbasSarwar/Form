@@ -12,24 +12,30 @@
 
     <h1 id="title">Hello world</h1>
     <p id="description">Hello , This is first project.</p>
+    <!--Final Project-->
     <form id="survey-form">
       <label for="name" id="name-label" >Name:</label>
-      <input type="text" id="name" required placeholder="Name">
-      <label for="email" id="email-label"></label>
-      <input type="email" id="email" required placeholder="email">
+      <input type="text" id="name" required placeholder="Name"><br>
+      <label for="email" id="email-label">Email:</label>
+      <input type="email" id="email" required placeholder="email"><br>
       <label for="number" id="number-label" >Number:</label>
-      <input type="number" id="number" min="11" max="14" required placeholder="Phone Number">
+      <input type="number" id="number" min="11" max="14" required placeholder="Phone Number"><br><br>
       <select id="dropdown">
-        <option value="value">Opt1</option>
-        <option value="value">Opt2</option>
-        <textarea name="" id="textarea" cols="30" rows="10" placeholder="write here"></textarea>
-        <button id="submit">Submit</button>
+        <optgroup label="Select">
+          <option value="value">Option 1</option>
+          <option value="value">Option 2</option>
+        </optgroup><br><br>
+        <textarea name="" id="textarea" cols="30" rows="10" placeholder="write here"></textarea><br><br>
       </select>
 
-      
-      <input type="radio" name="name" id="radio">
-      <input type="radio" name="name" id="radio">
+      <div>
+        <label for="label-1"></label>
+        <input type="radio" name="name" id="label-1">
+        <label for="label-2"></label>
+        <input type="radio" name="name" id="label-2">
+      </div>
 
+      <button id="submit">Submit</button>
     </form>
 
     <script  src="js/index.js"></script>
