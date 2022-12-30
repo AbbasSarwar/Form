@@ -4,12 +4,33 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 
-    <h1>Hello world</h1>
+    <h1 id="title">Hello world</h1>
+    <p id="description">Hello , This is first project.</p>
+    <form id="survey-form">
+      <label for="name" id="name-label" >Name:</label>
+      <input type="text" id="name" required placeholder="Name">
+      <label for="email" id="email-label"></label>
+      <input type="email" id="email" required placeholder="email">
+      <label for="number" id="number-label" >Number:</label>
+      <input type="number" id="number" min="11" max="14" required placeholder="Phone Number">
+      <select id="dropdown">
+        <option value="value">Opt1</option>
+        <option value="value">Opt2</option>
+        <textarea name="" id="textarea" cols="30" rows="10" placeholder="write here"></textarea>
+        <button id="submit">Submit</button>
+      </select>
+
+      
+      <input type="radio" name="name" id="radio">
+      <input type="radio" name="name" id="radio">
+
+    </form>
 
     <script  src="js/index.js"></script>
   </body>
