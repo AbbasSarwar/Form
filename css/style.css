@@ -1,3 +1,24 @@
 #title{
     color: rgb(66, 57, 57);
 }
+#description{
+    font-size: 16px;
+}
+#name{
+    width: 200px;
+    height: 10px;
+    font-size: 16px;
+    color: rgb(194, 72, 72);
+}
+#email{
+    width: 200px;
+    height: 10px;
+    font-size: 16px;
+    color: rgb(194, 72, 72);
+}
+#phone{
+    width: 200px;
+    height: 10px;
+    font-size: 16px;
+    color: rgb(194, 72, 72);
+}
